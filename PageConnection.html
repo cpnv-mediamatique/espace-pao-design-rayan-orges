@@ -1,39 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Page Connection</title>
+    <title>PageConnection</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
   </head>
-  <body>
-    <button type="button" class="btn btn-outline-success" data-mdb-ripple-color="dark">
-      Success
-  </body>
-  <div class="dropdown-menu">
-    <form class="px-4 py-3">
-      <div class="mb-3">
-        <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+  <body classe="container">
+    <div
+  class="border d-flex align-items-center justify-content-end"
+  style="height: 100vh;">
+  <img src="img/LogoCPNV.png" class="img-thumbnail" style="max-width: 50vh" />
+    <form class="col-md-5" >
+      <div class="mb-2 col-md-9">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       </div>
-      <div class="mb-3">
-        <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+      <div class="mb-3 col-md-9">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
       </div>
-      <div class="mb-3">
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="dropdownCheck">
-          <label class="form-check-label" for="dropdownCheck">
-            Remember me
-          </label>
-        </div>
+      <div class="mb-3 form-check">
+        <input type="radio" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
       </div>
-      <button type="submit" class="btn btn-primary">Sign in</button>
+      <button type="submit" class="btn bg-success text-white col-md-6">Connexion</button>
+      <div id="inscrpition" class="form-text">Inscrivez-vous</div>
+      <div id="questions" class="form-text">Questions ?</div>
     </form>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">New around here? Sign up</a>
-    <a class="dropdown-item" href="#">Forgot password?</a>
-  </div>
+    </div>
+  </body>
+
   <!-- MDB -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
