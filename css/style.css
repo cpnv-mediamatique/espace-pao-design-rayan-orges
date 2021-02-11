@@ -3,9 +3,8 @@
 header{
     position: fixed;
     z-index: 15;
-    width: 100%;
 }
-header .col-2 img{
+header .col-2 test1 img{
     width: 170px;
 }
 header .col-1 img{
@@ -13,6 +12,7 @@ header .col-1 img{
 }
 
 /*partie text d'accueil*/
+
 .col-10{
     margin: 4%;
 }
@@ -26,4 +26,9 @@ header .col-1 img{
 .col-6 p{
    color: red;
    text-align: center;
+}
+#text-bas{
+    border-top: solid 3px #00A65A;
+    padding-top: 49px;
+    margin-top: 80px;
 }
