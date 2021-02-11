@@ -1,0 +1,17 @@
+
+header{
+    position: fixed;
+    z-index: 15;
+    width: 100%;
+}
+
+/*partie text d'accueil*/
+.col-10{
+    margin: 4%;
+}
+.col-10 h2{
+    color: #00A65A;
+}
+.col-10 p{
+   color: #000000;
+}
