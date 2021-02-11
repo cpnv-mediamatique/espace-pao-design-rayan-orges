@@ -1,4 +1,5 @@
 
+/*menu*/
 header{
     position: fixed;
     z-index: 15;
@@ -14,4 +15,9 @@ header{
 }
 .col-10 p{
    color: #000000;
+}
+
+.col-6 p{
+   color: red;
+   text-align: center;
 }

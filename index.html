@@ -21,70 +21,43 @@
   <body>
     <!-- Start your project here-->
     <header>
-      <!--logo CPNV-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-          <div class="row">
-            <div class=".col-md-2">
-            <img
-              src="img/LogoCPNV.png"
-              height="30"
-              alt=""
-              loading="lazy"
-            />
-          </a>
-          </div>
-          <!-- Toggle button -->
+        <div class="col-2"><img src="img/logo@2x.png"></div>
+        <div class="container-fluid col-2">
           <button
             class="navbar-toggler"
             type="button"
             data-mdb-toggle="collapse"
-            data-mdb-target="#navbarLeftAlignExample"
-            aria-controls="navbarLeftAlignExample"
+            data-mdb-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <i class="fas fa-bars"></i>
           </button>
-      
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
-            <!-- Left links -->
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <!-- Navbar dropdown -->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-mdb-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-              </a>
-            <!-- Left links -->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#">Nous contacter</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a
+              >
+            </div>
           </div>
-          <!-- Collapsible wrapper -->
         </div>
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <!-- Badge -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="badge badge-pill bg-danger">1</span>
+                <span><i class="fas fa-shopping-cart"></i></span>
+              </a>
+            </li>
+          </ul>
         </div>
-        <ul class="navbar-nav">
-          <!-- Badge -->
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span><i class="fas fa-user"></i></span>
-            </a>
-          </li>
-        </ul>
-        <!-- Container wrapper -->
       </nav>
+
     </header>
     
     <main>
@@ -130,7 +103,7 @@
           </div>
 
           <!-- Single item -->
-          <div class="carousel-item vh-150">
+          <div class="carousel-item">
             <img
               src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
               class="d-block w-100"
@@ -174,9 +147,11 @@
       <p>Chaque produit comprend un lien pour votre commande</br>
         Pour certains produits les responsables prendront ensuite contact avec vous pour vérifier certains détails</br>
         Nous espérons que nos produits et services vous seront utiles</br>
-        </p>
+      </p>
     </div>
-      
+    <div class="col-md-6 offset-md-3 text-center">
+    <p>En cas de question, problème technique, ou pour de nouvelles idées de produits et services utiles pour les élèves, enseignants et maîtres de classe, vous pouvez nous contacter au moyen de l’email:</p>
+    </div>
     </main>
           
 </body>
