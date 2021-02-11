@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Material Design for Bootstrap</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- MDB icon -->
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -21,66 +21,74 @@
   <body>
     <!-- Start your project here-->
     <header>
-      <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg col-md-8 navbar-light bg-light">
-          <!-- Container wrapper -->
-          <div class="container-fluid">
-            <!-- Navbar brand -->
-            <div class="container">
-              <a class="navbar-brand col-md-2" href="#" >
-                <img
-                  src="img/logo@2x.png"
-                  width="170"
-                  height="85"
-                  alt=""
-                  loading="lazy"
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-
-            <!-- Toggle button -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-mdb-toggle="collapse"
-              data-mdb-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fas fa-bars"></i>
-            </button>
-
-            <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <!-- Left links -->
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Nous contacter</a>
-                </li>
-                
-              <!-- Left links -->
-            </div>
-            <!-- Collapsible wrapper -->
+      <!--logo CPNV-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class=".col-md-2">
+            <img
+              src="img/LogoCPNV.png"
+              height="30"
+              alt=""
+              loading="lazy"
+            />
+          </a>
           </div>
-          <!-- Container wrapper -->
-        
-
-
-
-
-
-
-        </nav>
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarLeftAlignExample"
+            aria-controls="navbarLeftAlignExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+      
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <!-- Navbar dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+              </a>
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        </div>
+        <ul class="navbar-nav">
+          <!-- Badge -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span><i class="fas fa-user"></i></span>
+            </a>
+          </li>
+        </ul>
+        <!-- Container wrapper -->
+      </nav>
     </header>
+    
     <main>
+
       <!-- Carousel wrapper -->
       <div
         id="carouselBasicExample"
@@ -122,7 +130,7 @@
           </div>
 
           <!-- Single item -->
-          <div class="carousel-item">
+          <div class="carousel-item vh-150">
             <img
               src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
               class="d-block w-100"
@@ -157,9 +165,21 @@
         </a>
       </div>
       <!-- Carousel wrapper -->
+    <div class="col-10">
+      <h2>Présentation</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, lorem at interdum eleifend, turpis dui rhoncus tellus, quis fermentum metus justo in elit. Suspendisse varius viverra nisi aliquet pulvinar. Aliquam sollicitudin accumsan sapien ac maximus. Praesent at justo congue ligula porta hendrerit quis vitae leo. Donec at lorem porta, tincidunt eros sollicitudin, fermentum arcu. Nunc a commodo eros. Cras eu dolor mollis, aliquet tellus eget, accumsan mauris. Aenean eu iaculis massa. Suspendisse volutpat semper mi vitae elementum. </p>
+    </div>
+    <div class="col-10">
+      <h2>Comment le site fonctionne ?</h2>
+      <p>Chaque produit comprend un lien pour votre commande</br>
+        Pour certains produits les responsables prendront ensuite contact avec vous pour vérifier certains détails</br>
+        Nous espérons que nos produits et services vous seront utiles</br>
+        </p>
+    </div>
+      
     </main>
           
-        </body>
+</body>
 
         <!-- MDB -->
         <script type="text/javascript" src="js/mdb.min.js"></script>
