@@ -51,6 +51,11 @@ footer p{
     text-align: center;
     padding: 5% 0 5% 0;
 }
+footer a{
+    text-decoration: underline #01A659;
+    color: #01A659;
+}
+
 label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
