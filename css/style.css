@@ -50,3 +50,12 @@ footer p{
     text-align: center;
     padding: 5% 0 5% 0;
 }
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
