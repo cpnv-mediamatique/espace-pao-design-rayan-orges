@@ -15,7 +15,6 @@ header {
 color: green;
 }
 
-
 /*partie text d'accueil*/
 
 .col-10{
@@ -40,6 +39,9 @@ color: green;
     margin: 10% 0 10% 0;
     color: #00A65A;
 }
+
+/*pied de page*/
+
 footer{
     height: 200px;
     background-color: #DFDFDF;
