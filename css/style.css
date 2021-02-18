@@ -1,15 +1,20 @@
-
 /*menu*/
 header{
     position: fixed;
     z-index: 15;
-}
-header .col-2 test1 img{
-    width: 170px;
+    color: #00A65A;
+    height: 170px;
 }
 header .col-1 img{
-    width: 45px;
+    height: 33px;
 }
+header .col-2 img{
+    height: 55px;
+}
+header {
+color: green;
+}
+
 
 /*partie text d'accueil*/
 
@@ -24,11 +29,22 @@ header .col-1 img{
 }
 
 .col-6 p{
-   color: red;
    text-align: center;
 }
 #text-bas{
     border-top: solid 3px #00A65A;
     padding-top: 49px;
     margin-top: 80px;
+}
+#text-bas p:nth-of-type(2){
+    margin: 10% 0 10% 0;
+    color: #00A65A;
+}
+footer{
+    height: 200px;
+    background-color: #DFDFDF;
+}
+footer p{
+    text-align: center;
+    padding: 5% 0 5% 0;
 }
